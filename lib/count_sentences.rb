@@ -13,7 +13,8 @@ class String
   end
   
   def count_sentences
-    self.split(/[.!?]/).reject {|x| x.empty?}.size
+    self.split(/[.!?]/).reject {|x| x.empty?}.size 
+    #(/[.!?]/) is regex notation (Look it up!)
   end
   
   #def count_sentences_words
